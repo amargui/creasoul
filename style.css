@@ -1,93 +1,107 @@
-body
-{
-    font-family: "open Sans",Ariel;
+body {
+    font-family: "open Sans", Ariel;
     background-color: #F2F1F4;
     margin-left: 5%;
     margin-right: 5%;
-    
     color: #6a6d70;
-    
 }
 
 header {
     text-align: center;
     width: 100%;
 }
-nav
-{
+
+nav {
     background-color: #2FA995;
-    font-family:  Open Sans, Arial;
+    font-family: Open Sans, Arial;
     font-size: 20px;
     width: 100%;
-    
 }
 
-a
-{
+a {
     color: white;
     display: inline-block;
     text-decoration: none;
     font-size: 2em;
     width: 23%;
 }
-a:hover
-{
+
+a:hover {
     background-color: #49B2B4;
-   
+
 }
-nav a
-{
+
+nav a {
     padding: 40px;
 }
-header nav a
-{
+
+header nav a {
     font-family: "PT Sans Narrow";
     font-size: 1.6em;
 }
 
-.img
-{
+.img {
     max-width: 100%;
 }
-h1,h2,h3
-{
+
+h1,
+h2,
+h3 {
     color: #30A894;
     font-family: "PT sans Narrow";
     text-transform: uppercase;
-    
+
 }
-h1
-{
+
+h1 {
     font-size: 2.8em;
 }
-h2
-{
+
+h2 {
     font-size: 1.4em;
 }
-hr
-{
+
+hr {
     background-color: #49B2B4;
     padding: 0.5px;
-    
-    
+
+
 }
-#mainContenu
-{
+
+#mainContenu {
     display: inline-block;
     width: 71.5%;
     vertical-align: top;
     margin-right: 1%;
 }
-aside
-{
+
+aside {
     display: inline-block;
-    background-color:#B8DCB1 ;
+    background-color: #B8DCB1;
     width: 25%;
     vertical-align: top;
     padding: 1% 1% 2% 1%;
 }
-span
-{
+
+span {
     color: #49B2B4;
     font-size: 21px;
 }
+/* pour tablette*/
+
+@media(min-width: 768px) and (max-width: 1200px){
+    aside{
+        display: block;
+        width: 75%;
+    }
+}
+/*pour mobile*/
+
+@media screen and (max-width: 767px) {
+    aside{
+        display: none;
+    }
+}
+
+
+
